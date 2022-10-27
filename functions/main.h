@@ -2,5 +2,6 @@
 #define MAIN_H
 
 void sum_of_integers(int n, int x);
+int _putchar(char c);
 
 #endif
