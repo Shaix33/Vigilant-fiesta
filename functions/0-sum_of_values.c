@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * sum_of_integers - a program that returns the sum of integers
  * description - a program that returns the sum of integers
@@ -8,11 +8,11 @@
  * Return: sum
  */
 
-int sum_of_integers(int n, int x)
+void sum_of_integers(int n, int x)
 {
 	int sum;
 
 	sum = n + x;
 
-	return (sum);
+	printf("%d\n",sum);
 }

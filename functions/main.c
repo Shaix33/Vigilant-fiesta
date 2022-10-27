@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - program entry point
  * description - prints the sum of numbers
@@ -9,16 +9,9 @@
 
 int main(void)
 {
-	int x, j, result;
-	
-	printf("Enter a number: -->");
-	scanf("%i\n", x);
-	printf("Enter a number: --> %i\n", j);
-	scanf("%i\n", j);
-	
-	result = sum_of_integers(x, j);
+	int x = 10, j = 15;
 
-	printf("The sum of provided numbers is \%d:", result);
+	sum_of_integers(x, j);
 
 	return (0);
 }
